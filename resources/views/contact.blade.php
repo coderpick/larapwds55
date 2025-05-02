@@ -1,6 +1,6 @@
 @extends('layouts.frontend.master')
 @section('content')
     <div class="container">
-        <h1>Home page</h1>
+        <h1>Contact page</h1>
     </div>
 @endsection
