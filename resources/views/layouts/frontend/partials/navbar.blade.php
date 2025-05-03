@@ -16,7 +16,8 @@
                          href="{{ route('about') }}">About</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#">Posts</a>
+                     <a class="nav-link {{ Request::routeIs('posts.index') ? 'active' : '' }}"
+                         href="{{ route('posts.index') }}">Posts</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link {{ Request::routeIs('contact') ? 'active' : '' }}"
